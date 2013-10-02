@@ -5,9 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using WebApplication3;
 
-namespace BusinessLayer
+
+namespace Business_Layer
 {
-   public class BusinessClass1
+    public class BusinessPerson
     {
         public void Insert(Person oPerson)
         {
@@ -39,7 +40,7 @@ namespace BusinessLayer
             var PersonRepo = Service.RepoFactory.Create("Person");
             return (PersonRepo.GetBySpecificKey("labNumber",labId).OfType<Person>());
         }
-
-
     }
 }
+
+

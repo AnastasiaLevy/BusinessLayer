@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebApplication3;
-namespace BusinessLayer
+
+namespace Business_Layer
 {
-   public class BusinessClass2
+    public class BusinessLab
     {
         public void Insert(Lab oLab)
         {

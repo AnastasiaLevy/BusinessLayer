@@ -69,9 +69,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
-      <Project>{69c058f5-3546-4451-8cfd-bde680127315}</Project>
-      <Name>BusinessLayer</Name>
+    <ProjectReference Include="..\Business_Layer\Business_Layer.csproj">
+      <Project>{b18654ac-781c-4f8f-8ce2-642535d91f16}</Project>
+      <Name>Business_Layer</Name>
     </ProjectReference>
     <ProjectReference Include="..\WebApplication3\WebApplication3.csproj">
       <Project>{553fb0e8-9da5-461d-bf59-69b407c63fcd}</Project>

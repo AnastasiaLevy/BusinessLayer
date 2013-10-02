@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using WebApplication3;
 
-namespace BusinessLayer
+namespace Business_Layer
 {
-    class BusinessClass4
+   public class BusinessGrade
     {
         public void Insert(Grade gr)
         {
@@ -29,5 +29,7 @@ namespace BusinessLayer
             var grRepo = Service.RepoFactory.Create("Grade");
             return (grRepo.GetAll().OfType<Grade>());
         }
+
     }
 }
+

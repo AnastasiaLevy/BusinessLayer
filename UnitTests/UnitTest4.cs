@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BusinessLayer;
+using Business_Layer;
 using WebApplication3;
 namespace UnitTests
 
@@ -15,7 +15,7 @@ namespace UnitTests
             p.FirstName = "I am ";
             p.LastName = "Soo Tired";
 
-            BusinessClass1 bc = new BusinessClass1();
+            BusinessPerson bc = new BusinessPerson();
             bc.Insert(p);
         }
          [TestMethod]
@@ -26,14 +26,33 @@ namespace UnitTests
             l.PersonId = 1023;
             l.ScheduleId = 3;
 
-            BusinessClass2 bs = new BusinessClass2();
+            BusinessLab bs = new BusinessLab();
             bs.Insert(l);
         }
+         
+        [TestMethod]
+        public void AddPicture()
+        {
+            Picture pic = new Picture();
+            pic.Id = 8;
+            pic.PersonId = 1033;
+            pic.PictureFile = "file";
+
+            BusinessPicture bp = new BusinessPicture();
+            bp.Insert(pic);
+        }
+        
+
+
+
+             
+         }
+
 
            
             
             
 
     }
-}
+
 

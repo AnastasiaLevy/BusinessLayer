@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using WebApplication3;
 
-namespace BusinessLayer
+namespace Business_Layer
 {
-    class BusinessClass3
+   public class BusinessPicture
     {
         public void Insert(Picture pic)
         {

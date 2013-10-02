@@ -50,7 +50,7 @@ namespace UnitTests
         public void GetALabByKey()
         {
             var labRepo = new DataRepository<Lab>();
-           // List<Lab> list = labRepo.GetBySpecificKey("ID", 1);
+            //List<Lab> list = labRepo.GetBySpecificKey("ID", 1);
 
         }
         [TestMethod]
